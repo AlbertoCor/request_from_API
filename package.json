@@ -1,0 +1,22 @@
+{
+  "name": "asynchonous",
+  "version": "1.0.0",
+  "description": "Asynchronous work in JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:API_request": "node src/callback/API_request.js",
+    "promise": "node src/promises/index.js",
+    "promise:challenge": "node src/promises/promise_request.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "Alberto Coronado <ac.insite15@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
