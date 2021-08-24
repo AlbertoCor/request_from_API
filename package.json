@@ -7,7 +7,10 @@
     "callback": "node src/callback/index.js",
     "callback:API_request": "node src/callback/API_request.js",
     "promise": "node src/promises/index.js",
-    "promise:challenge": "node src/promises/promise_request.js"
+    "promise:challenge": "node src/promises/promise_request.js",
+    "async": "node src/async_await/index.js",
+    "async:async_request": "node src/async_await/async_request.js"
+
   },
   "keywords": [
     "callbacks",
